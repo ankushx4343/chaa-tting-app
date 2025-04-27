@@ -11,7 +11,7 @@ import {app,server} from"./socket.js"
 
 
 app.use(cors({
-    origin:"http://localhost:5173",
+    origin:"https://chaa-tting-app.onrender.com",
     credentials:true
 }))
 app.use(cookieparser())
